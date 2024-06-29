@@ -4,7 +4,7 @@ const b = padding.split("px")[0];
 const c = border.slice(0, -2);
 
 //console.log(a, b, c);
-//console.log(typeof a, typeof b, typeof c);
+console.log(typeof a, typeof b, typeof c);
 return Number(a) + 2*Number(b) + 2*Number(c);
 }
 
